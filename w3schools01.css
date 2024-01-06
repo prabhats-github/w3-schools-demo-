@@ -1,0 +1,45 @@
+nav{
+    height: 40px;
+    width: 100%;
+    border: 1px solid white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    
+}
+
+body{
+    background-color: rgb(11, 10, 10);
+    overflow: hidden;
+}
+
+#ul1{
+    list-style: none;
+    display: flex;
+    margin-top: 7px;
+}
+
+#ul1 li{
+    color: white;
+    margin-left: 20px;
+    
+}
+
+#d1{
+    height: 600px;
+    width: 20%;
+    border: 1px solid white;
+    margin-top: 5px;
+    /* color: white; */
+    overflow: scroll;
+    font-family: "Segoe UI",Arial,sans-serif;
+    background-color: rgb(217, 217, 217);
+}
+
+h2{
+    margin-left: 27px;
+}
+
+#ul2{
+    list-style: none;
+   
+}
+
