@@ -8,7 +8,7 @@ nav{
 
 body{
     background-color: rgb(11, 10, 10);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #ul1{
@@ -42,4 +42,89 @@ h2{
     list-style: none;
    
 }
+
+header{
+    height: 60px;
+    border: 1px solid white;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+img{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.c1{
+    border: none;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+input{
+    width: 170px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 16px;
+    border-radius: 30px;
+    border: 1px solid black;
+    
+}
+
+input::placeholder{
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#i1{
+    margin-top: 20px;
+    margin-left: -30px;
+    cursor: pointer;
+    
+}
+
+#i2{
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+a{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+#b1{
+    height: 40px;
+    width: 60px;
+    border: none;
+    /* background-color: transparent; */
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#b1:hover{
+    background-color: green;
+}
+#b2{
+    height: 40px;
+    width: 60px;
+    border: none;
+    /* background-color: transparent; */
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: -7px;
+    cursor: pointer;
+}
+    
 
